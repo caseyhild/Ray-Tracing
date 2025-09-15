@@ -31,7 +31,7 @@ public class RayTracing extends JFrame implements Runnable
         image = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);
         pixels = ((DataBufferInt)image.getRaster().getDataBuffer()).getData();
         //setting up the window
-        setSize(width, height);
+        setSize(width, height + 28);
         setResizable(false);
         setTitle("Ray Tracing");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -58,7 +58,7 @@ public class RayTracing extends JFrame implements Runnable
             return;
         }
         Graphics g = bs.getDrawGraphics();
-        g.drawImage(image, 0, 0, image.getWidth(), image.getHeight(), null);
+        g.drawImage(image, 0, 28, image.getWidth(), image.getHeight(), null);
         bs.show();
     }
 
