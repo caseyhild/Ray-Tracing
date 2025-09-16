@@ -1,6 +1,6 @@
 # Ray Tracing
 
-A collection of ray tracing and ray marching techniques and scenes that I have tried and rendered.
+A collection of complex 3D scenes I have simulated and rendered using ray tracing and ray marching techniques.
 
 <img height="270" alt="Screenshot 2025-09-14 at 3 58 33 AM" src="https://github.com/user-attachments/assets/d8358a8c-79dd-44c2-a28e-09512ce7adda" />
 <img height="270" alt="Screenshot 2025-09-14 at 3 55 19 AM" src="https://github.com/user-attachments/assets/24684f0a-0d06-4792-b3ce-8ecd82cfb434" />
